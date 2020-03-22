@@ -54,7 +54,7 @@ Result from Hough-Transformation:
 ![EdgesNonAveraged](./test_images_pipeline_output/solidYellowCurve_edgeslines_nonaverage.jpg)
 
 6. Finally, the detected lines from the Hough Transformation are averaged and overlayed with the original image
-![EdgesAveraged](./test_images_pipeline_output/solidYellowCurve_edgeslines_result.jpg)
+![EdgesAveraged](./test_images_pipeline_output/solidYellowCurve_result.jpg)
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by separating the detected lines from the Hough-Transofrmation into two categories:
 * The ones with positive slope, i.e. these lines are on the right side of the vehicle
